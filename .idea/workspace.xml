@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfecc96b-f99f-4cd3-8d06-c43ec288b477" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fist.html" beforeDir="false" afterPath="$PROJECT_DIR$/fist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstresponsive.html" beforeDir="false" afterPath="$PROJECT_DIR$/firstresponsive.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -46,6 +46,7 @@
       <workItem from="1628733507689" duration="6000" />
       <workItem from="1628733528463" duration="6000" />
       <workItem from="1628733608361" duration="6000" />
+      <workItem from="1629094834588" duration="102000" />
     </task>
     <servers />
   </component>
