@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function start(){ // start is the name of function to be called later in html file.
+    var person={ // Opening Object Scope.
+
+        //reading first name, the prompt function is requsting string.
+        fname: prompt("Your first name:"),    
+        //same goes with last name.
+        lname: prompt("Your last name:")
+    } //closing the object scope.
+    //show message of first name and last name.
+    alert(person.fname + " " + person.lname);
+    //show message of how many charactors are in you name.
+    alert("Your name has " + (person.fname.length + person.lname.length)  + " charactors") ;
+}
+    </script>
+</body>
+</html>
