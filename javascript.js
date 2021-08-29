@@ -10,7 +10,11 @@ gender : "male" ,
     addres : {
         countery : "Iran",
         city : "Tehran",
+        mahal : {
+            zone : 22 ,
+            esm : ["chitgar","naziabad"] 
+        }
     },
-    Hobbies : ["movies ","codding"]
+    Hobbies : ["movies ","codding"],
 }
-console.log(person.addres.city);
+console.log(person.addres.mahal.esm[1]);
