@@ -7,14 +7,15 @@ let person= {
 name : "nader" , 
 age : 30,
 gender : "male" ,
-    addres : {
-        countery : "Iran",
-        city : "Tehran",
-        mahal : {
+addres : {
+    countery : "Iran",
+    city : "Tehran",
+    mahal : {
             zone : 22 ,
             esm : ["chitgar","naziabad"] 
         }
     },
-    Hobbies : ["movies ","codding"],
+Hobbies : ["movies ","codding"]
 }
-console.log(person.addres.mahal.esm[1]);
+person.email = "nader@email.com"
+console.log(person);
