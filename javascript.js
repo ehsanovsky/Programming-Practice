@@ -52,15 +52,27 @@ let aPerson ;
 
 //deep assignment //
 
-aPerson = Object.assign({}, person);
-aPerson.name = "bahram";
-console.log(person);
-console.log(aPerson);
+// aPerson = Object.assign({}, person);
+// aPerson.name = "bahram";
+// console.log(person);
+// console.log(aPerson);
 
-let numbers = [2 , 3 , 5 , 7];
-let aNumbers ;
+// let numbers = [2 , 3 , 5 , 7];
+// let aNumbers ;
 
-aNumbers = Object.assign([], numbers);
-aNumbers[2] = 10 ;
-console.log(numbers);
-console.log(aNumbers);
+// aNumbers = Object.assign([], numbers);
+// aNumbers[2] = 10 ;
+// console.log(numbers);
+// console.log(aNumbers);
+
+// template.string//
+
+
+// let firstName = "Ehsan";
+// let lastName = "Safari";
+// let result ;
+ 
+// result = ` my name is ${firstName} ${lastName} and i'm 26 years old`;
+// console.log(result);
+
+
