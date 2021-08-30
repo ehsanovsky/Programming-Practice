@@ -37,12 +37,30 @@
 
 // heap and stack //
 
-let name =  "mahdi";
-let aName ;
- 
-aName = name ;
-console.log(name);
-console.log(aName);
+let person = { name : "mahdi"};
+let aPerson ;
 
-aName = "bahram";
-console.log(aName); 
+//  normal assignment://
+
+// aPerson = person ;
+// console.log(person);
+// console.log(aPerson);
+
+// aPerson.name = "bahram";
+
+// console.log(person);
+
+//deep assignment //
+
+aPerson = Object.assign({}, person);
+aPerson.name = "bahram";
+console.log(person);
+console.log(aPerson);
+
+let numbers = [2 , 3 , 5 , 7];
+let aNumbers ;
+
+aNumbers = Object.assign([], numbers);
+aNumbers[2] = 10 ;
+console.log(numbers);
+console.log(aNumbers);
