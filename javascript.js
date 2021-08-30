@@ -37,8 +37,8 @@
 
 // heap and stack //
 
-let person = { name : "mahdi"};
-let aPerson ;
+// let person = { name : "mahdi"};
+// let aPerson ;
 
 //  normal assignment://
 
@@ -76,3 +76,10 @@ let aPerson ;
 // console.log(result);
 
 
+let x ;
+let y ;
+x = 14 ;
+y = 3 ;
+result = x / y ;
+aresult = Math.round(result);
+console.log(aresult);
