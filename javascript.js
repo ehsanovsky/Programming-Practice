@@ -78,8 +78,8 @@
 
 let x ;
 let y ;
-x = 14 ;
-y = 3 ;
+x = 13 ;
+y = 2 ;
 result = x / y ;
 aresult = Math.round(result);
 console.log(aresult);
