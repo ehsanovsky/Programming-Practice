@@ -78,8 +78,9 @@
 
 let x ;
 let y ;
-x = 27 ;
+x = 2۹ ;
 y = 2 ;
 result = x / y ;
 aresult = Math.round(result);
 console.log(aresult);
+            
