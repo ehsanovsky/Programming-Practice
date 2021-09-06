@@ -75,7 +75,7 @@
 // result = ` my name is ${firstName} ${lastName} and i'm 26 years old`;
 // console.log(result);
 
-
+// rounded
 let x ;
 let y ;
 x = 37 ;
