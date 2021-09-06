@@ -78,7 +78,7 @@
 // rounded
 let x ;
 let y ;
-x = 37 ;
+x = 39 ;
 y = 2 ;
 result = x / y ;
 aresult = Math.round(result);
